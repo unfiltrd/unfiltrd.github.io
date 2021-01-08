@@ -6,6 +6,7 @@ layout: default
     <h1>{{ page.tag }}</h1>
 
     {% for post in site.categories[page.tag] %}
+<article>    
     {% if post.categories contains "albums" %}
     <div class="title">{{ post.title }}</div>
     <div class="date_taken">{{ post.date_taken }}</div>
@@ -15,7 +16,6 @@ layout: default
     <div class="author">By {{ post.author }}</div>
     <div class="date">Published {{ post.date | date_to_string }}</div>
     {% endif %}
-    {{ post.content }}
-    <p style="margin-bottom: 30px;"></p>
+    {{ post.content }}</article>
         {% endfor %}
 </div>
