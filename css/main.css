@@ -50,7 +50,7 @@ img {
 .title {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .camera {
@@ -60,6 +60,7 @@ img {
 
 .date_taken {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
 }
 
 .date {
