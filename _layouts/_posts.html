@@ -6,4 +6,9 @@ layout: default
 
 <div class="post">
     {{ content }}
+    {% if page.category == "albums" %}
+    <div class="date_taken">{{ page.date_taken }}</div>
+    {% elsif page.category == "articles" %}
+    This should say this...
+    {% endif %}
 </div>
