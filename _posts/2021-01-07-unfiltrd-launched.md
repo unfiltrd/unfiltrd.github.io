@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "unfiltrd launch"
+layout: "post"
 categories: 
     - "articles"
 ---
