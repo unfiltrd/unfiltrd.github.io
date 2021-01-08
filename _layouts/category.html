@@ -8,8 +8,10 @@ layout: default
     {% for post in site.categories[page.tag] %}
     {% if post.categories contains "albums" %}
     <div class="date_taken">{{ post.date_taken }}</div>
+    <div class="camera">{{ post.camera }}</div>
+    <div class="title">{{ post.title }}</div>
     {% elsif post.categories contains "articles" %}
-    This should say this...
+    <div class="date">{{ post.date }}</div>>
     {% endif %}
     {{ post.content }}
     {% endfor %}
