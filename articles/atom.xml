@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>unfiltrd Posts</title>
-	<link href="http://unfiltrd.github.io/posts/atom.xml" rel="self"/>
-	<link href="http://unfiltrd.github.io/posts"/>
+	<link href="http://unfiltrd.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://unfiltrd.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://unfiltrd.github.io/posts</id>
+	<id>http://unfiltrd.github.io/blog</id>
 	<author>
 		<name>Derek Peng</name>
 		<email>dryan008@gmail.com</email>
