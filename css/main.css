@@ -66,5 +66,11 @@ img {
 
 .date {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
 }
+
+.author {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
 }
