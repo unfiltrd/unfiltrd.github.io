@@ -12,8 +12,8 @@ layout: default
     <div class="camera">{{ post.camera }}</div>
     {% elsif post.categories contains "articles" %}
     <div class="title">{{ post.title }}</div>
-    By <div class="author">{{ post.author }}</div>
-    Published <div class="date">{{ post.date | date_to_string }}</div>
+    <div class="author">By {{ post.author }}</div>
+    <div class="date">Published {{ post.date | date_to_string }}</div>
     {% endif %}
     {{ post.content }}
     {% endfor %}
