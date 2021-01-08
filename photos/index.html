@@ -3,9 +3,9 @@ layout: default
 title: Photos
 ---
 <h1>{{ page.title }}</h1>
-<ul class="collections">
+<ul class="albums">
 
-    {% for collection in site.categories.collections %}
-    <li><span>{{ collection.date | date_to_string }}</span> <a href="{{ collection.url }}" title="{{ collection.title }}"> </a>{{ collection.title }} {{ collection.content }}</li>
+    {% for album in site.categories.albums %}
+    <li><span>{{ album.date | date_to_string }}</span> <a href="{{ album.url }}" title="{{ album.title }}"> </a>{{ album.title }} {{ album.content }}</li>
     {% endfor %}
 </ul>
