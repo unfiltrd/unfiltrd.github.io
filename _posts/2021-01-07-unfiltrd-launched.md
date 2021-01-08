@@ -6,5 +6,4 @@ categories:
     - "articles"
 ---
 
-## unfiltrd launch
-First post! Finally got around to putting this old website together. Let's see how this goes.
+First post! Learning how to use GitHub and working out features. Let's see how this goes.
