@@ -5,7 +5,7 @@ title: Photos
 <h1>{{ page.title }}</h1>
 <ul class="collections">
 
-    {% for collection in site.collections %}
+    {% for collection in site.categories._collections %}
     <li><span>{{ collection.date | date_to_string }}</span> <a href="{{ collection.url }}" title="{{ collection.title }}"> </a>{{ collection.title }} {{ collection.content }}</li>
     {% endfor %}
 </ul>
