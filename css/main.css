@@ -81,5 +81,5 @@ article {
 
 img + em {
     font-style: italic;
-    color:rgb(114, 114, 114);
+    color:#999;
 }
