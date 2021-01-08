@@ -6,9 +6,9 @@ layout: default
     <h1>{{ page.tag }}</h1>
 
     {% for post in site.categories[page.tag] %}
-    {% if page.categories contains "albums" %}
-    <div class="date_taken">{{ page.date_taken }}</div>
-    {% elsif page.categories contains "articles" %}
+    {% if post.categories contains "albums" %}
+    <div class="date_taken">{{ post.date_taken }}</div>
+    {% elsif post.categories contains "articles" %}
     This should say this...
     {% endif %}
     {{ post.content }}
