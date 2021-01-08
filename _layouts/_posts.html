@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
     {{ content }}
-    {% if page.categories != "albums" %}
-    <div class="date_taken">{{ page.date_taken }}</div>
-    {% elsif page.categories != "articles" %}
-    This should say this...
+    {% for post in site.categories %}
+    {% if page.categories == "albums" %}
+    <div class="albums">
+        <h2>{{ page.camera }}</h2>
+        <p>{{ page.date_taken }}</p>
+    </div>
     {% endif %}
+    {% endfor %}
 </div>
