@@ -1,7 +1,7 @@
 ---
 title: "unfiltrd launch"
 layout: "post"
-date: 2021-01-07
+date: "2021-01-07"
 categories: 
     - "articles"
 ---
