@@ -1,6 +1,6 @@
 name: unfiltrd, a study
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /category/articles/:year/:month/:day/:title
 collections:
   category:
     output: true
