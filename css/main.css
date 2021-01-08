@@ -78,3 +78,7 @@ img {
 article {
     margin-bottom: 90px;
 }
+
+img + em {
+    font-style: italic;
+}
