@@ -51,3 +51,7 @@ img {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+.camera {
+    font-style: italic;
+}
