@@ -1,3 +1,3 @@
-# unfiltrd.github.io
+# Photos
 
 ![USC](/images/usc.jpg)
