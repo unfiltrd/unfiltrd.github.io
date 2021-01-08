@@ -54,5 +54,15 @@ img {
 }
 
 .camera {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+}
+
+.date_taken {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.date {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 }
