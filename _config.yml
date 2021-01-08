@@ -1,4 +1,4 @@
-name: UNFILTRD, a study
+name: unfiltrd, a study
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections:
