@@ -1,4 +1,4 @@
 ---
-tag: alarticlesbums
+tag: articles
 permalink: "/category/articles"
 ---
