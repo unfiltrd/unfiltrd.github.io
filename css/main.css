@@ -46,3 +46,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.title {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}

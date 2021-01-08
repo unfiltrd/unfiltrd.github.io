@@ -11,7 +11,7 @@ layout: default
     <div class="camera">{{ post.camera }}</div>
     <div class="title">{{ post.title }}</div>
     {% elsif post.categories contains "articles" %}
-    <div class="date">{{ post.date }}</div>>
+    <div class="date">{{ post.date | date_to_string }}</div>>
     {% endif %}
     {{ post.content }}
     {% endfor %}
