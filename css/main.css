@@ -89,3 +89,14 @@ img + em {
     font-size: 3em;
     font-weight: bold;
 }
+
+aside {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}
