@@ -6,8 +6,7 @@ categories:
     - "articles"
 author: "Derek Peng"
 ---
-![USC](/images/usc.jpg)
-*The Office of Undergraduate Admissions at USC. jk, i'm not sure.*
+![socialmedia](/images/forthecommongood.jpg)
 
 The other day, a neighbor claimed ANTIFA was behind the Capitol Hill insurrection, not Trump supporters. However, looking through the *New York Times*, *Wall Street Journal*, and other credible news sources, I found zero evidence for this claim. Instead, there were <a href="https://reuters.com/article/uk-factcheck-news-report-antifa-altered/fact-check-news-report-saying-antifa-took-responsibility-for-storming-capitol-is-digitally-altered-idUSKBN29C2ZF">articles</a> proving the exact opposite. I found myself wondering, “how did we get here?”
 
