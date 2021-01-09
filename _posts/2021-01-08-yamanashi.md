@@ -1,7 +1,7 @@
 ---
 title: "Yamanashi, Japan"
 layout: "post" 
-date: "2021-01-07"
+date: "2021-01-08"
 categories: 
     - "albums"
 camera: "Lumix LX-10"
