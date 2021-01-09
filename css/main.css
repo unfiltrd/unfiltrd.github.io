@@ -83,3 +83,8 @@ img + em {
     font-style: italic;
     color:#999;
 }
+
+.scBio {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 3em;
+}
