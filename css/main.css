@@ -88,4 +88,5 @@ img + em {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 3em;
     font-weight: bold;
+    padding-bottom: 10px;
 }
