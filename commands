@@ -20,3 +20,6 @@ aside:
 captions:
 ![socialmedia](/images/forthecommongood.jpg)
 *caption goes here*
+
+color:
+<h1 style="color:#F7CAC9">{{ page.title }}</h1>
