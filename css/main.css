@@ -66,6 +66,7 @@ footer ul li {
 }
 
 a {
+    font-family: var(--serif-font);
     text-decoration: none;
     color: #999;
 }
@@ -80,8 +81,8 @@ h1 {
 
 p {
     font-family: var(--serif-font);
-    font-size: 1.35em;
-    line-height: 1.52em;
+    font-size: 1.5em;
+    line-height: 1.4em;
     /* color: #333; */
 }
 
