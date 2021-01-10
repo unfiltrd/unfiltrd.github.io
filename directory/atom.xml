@@ -4,14 +4,14 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>unfiltrd</title>
-	<link href="http://unfiltrd.github.io/directory/atom.xml" rel="self"/>
-	<link href="http://unfiltrd.github.io/directory"/>
+	<title>unfiltrd, a study</title>
+	<link href="http://unfiltrd.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://unfiltrd.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://unfiltrd.github.io/directory</id>
+	<id>http://unfiltrd.github.io/blog</id>
 	<author>
-		<name>Sophia Cordoba</name>
 		<name>Derek Peng</name>
+		<email>dryan008@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
