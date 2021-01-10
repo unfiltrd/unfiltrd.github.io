@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+<div class="blog list">
+    {% if page.tag == "albums" %}
+    <h1 style="color: #616247;">{{ page.tag }}</h1>
+    {% elsif page.tag == "articles" %}
+    <h1 style="color: #4C6A92;">{{ page.tag }}</h1>
+    {% endif %}
+
+    {% for post in site.categories[page.tag] %}
 <article>    
     {% if post.categories contains "albums" %}
     <div class="title">{{ post.title }}</div>

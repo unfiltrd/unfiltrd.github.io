@@ -11,4 +11,4 @@ defaults:
       path: ""
       type: category
     values:
-      layout: "category"
+      layout: "_posts"
