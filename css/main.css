@@ -90,3 +90,7 @@ img + em {
     font-weight: bold;
     padding-bottom: 10px;
 }
+
+.tab { 
+    margin-left: 40px;
+}
