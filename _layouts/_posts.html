@@ -4,11 +4,4 @@ layout: default
 <h1>{{ post.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-    {{ content }}
-    {% if page.categories contains "albums" %}
-    <div class="date_taken">{{ page.date_taken }}</div>
-    {% elsif page.categories contains "articles" %}
-    This should say this...
-    {% endif %}
-</div>
+{{ content }}
