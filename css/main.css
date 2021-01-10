@@ -11,7 +11,7 @@
     --text: #212121;
     --text-light: #666;
     --border: #D8DAE1;
-    --accent: #0D47A1;
+    --accent: #999;
     --accent-light: #90CAF9;
     --code: #D81B60;
     --about-status-border-color: palegreen;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 nav a {
-    color: var(--text);
+    color: var(--accent);
 }
 
 h1 {
@@ -110,6 +110,7 @@ img {
 }
 
 .title {
+    font-family: var(--sans-font);
     font-size: 3em;
     font-weight: bolder;
 }
@@ -141,7 +142,7 @@ article {
 }
 
 aside {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: var(--sans-font);
     list-style: none;
     margin-bottom: 15px;
     padding-left: 8px;
@@ -156,6 +157,7 @@ img+em {
 }
 
 .bio {
+    font-family: var(--sans-font);
     font-size: 3em;
     font-weight: bold;
     padding-bottom: 10px;
