@@ -10,16 +10,19 @@ layout: default
     {% endif %}
 
     {% for post in site.categories[page.tag] %}
-<article>    
-    {% if post.categories contains "albums" %}
-    <div class="title">{{ post.title }}</div>
-    <div class="date_taken">{{ post.date_taken }}</div>
-    <div class="camera">{{ post.camera }}</div>
-    {% elsif post.categories contains "articles" %}
-    <div class="title">{{ post.title }}</div>
-    <div class="author">By {{ post.author }}</div>
-    <div class="date">Published {{ post.date | date_to_string }}</div>
-    {% endif %}
-    {{ post.content }}</article>
-        {% endfor %}
+    <article>
+        <header>
+            {% if post.categories contains "albums" %}
+            <div class="title">{{ post.title }}</div>
+            <div class="date_taken">{{ post.date_taken }}</div>
+            <div class="camera">{{ post.camera }}</div>
+            {% elsif post.categories contains "articles" %}
+            <div class="title">{{ post.title }}</div>
+            <div class="author">By {{ post.author }}</div>
+            <div class="date">Published {{ post.date | date_to_string }}</div>
+            {% endif %}
+        </header>
+        {{ post.content }}
+    </article>
+    {% endfor %}
 </div>
