@@ -12,3 +12,8 @@ defaults:
       type: category
     values:
       layout: "category"
+
+      # Includes an icon in the footer for each user name you enter
+footer-links:
+  github: barryclark
+  twitter: baznyc
