@@ -90,3 +90,8 @@ img + em {
     font-weight: bold;
     padding-bottom: 10px;
 }
+
+aside {
+    font-family: Helvetica, Arial, sans-serif; 
+    list-style: none;
+}
