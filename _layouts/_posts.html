@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
-<h1>{{ post.title }}</h1>
-<p class="meta">{{ post.date | date_to_string }}</p>
-
-<div class="post">
-    {{ content }}
-  </div>
+<article>    
+    {% if post.categories contains "albums" %}
+    <div class="title">{{ post.title }}</div>
+    <div class="date_taken">{{ post.date_taken }}</div>
+    <div class="camera">{{ post.camera }}</div>
+    {% elsif post.categories contains "articles" %}
+    <div class="title">{{ post.title }}</div>
+    <div class="author">By {{ post.author }}</div>
+    <div class="date">Published {{ post.date | date_to_string }}</div>
+    {% endif %}
+    {{ post.content }}</article>
+        {% endfor %}
+</div>
