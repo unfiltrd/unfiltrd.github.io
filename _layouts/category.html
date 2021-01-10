@@ -4,9 +4,9 @@ layout: default
 
 <div class="blog list">
     {% if page.tag == "albums" %}
-    <h1 style="color: red;">{{ page.tag }}</h1>
+    <h1 style="color: #616247;">{{ page.tag }}</h1>
     {% elsif page.tag == "articles" %}
-    <h1 style="color: blue;">{{ page.tag }}</h1>
+    <h1 style="color: #4C6A92;">{{ page.tag }}</h1>
     {% endif %}
 
     {% for post in site.categories[page.tag] %}

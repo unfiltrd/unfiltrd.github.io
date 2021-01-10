@@ -1,5 +1,5 @@
 ---
-title: "unfiltrd launch"
+title: "unfiltrd Launch"
 layout: "post"
 date: "2021-01-07"
 categories: 
