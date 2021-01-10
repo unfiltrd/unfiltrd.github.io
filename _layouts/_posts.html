@@ -3,23 +3,17 @@ layout: default
 ---
 
 <div class="blog list">
-    {% if page.tag == "albums" %}
-    <h1 style="color: #616247;">{{ page.tag }}</h1>
-    {% elsif page.tag == "articles" %}
-    <h1 style="color: #4C6A92;">{{ page.tag }}</h1>
-    {% endif %}
-
-    {% for post in site.categories[page.tag] %}
+   
 <article>    
-    {% if post.categories contains "albums" %}
-    <div class="title">{{ post.title }}</div>
-    <div class="date_taken">{{ post.date_taken }}</div>
-    <div class="camera">{{ post.camera }}</div>
-    {% elsif post.categories contains "articles" %}
-    <div class="title">{{ post.title }}</div>
-    <div class="author">By {{ post.author }}</div>
-    <div class="date">Published {{ post.date | date_to_string }}</div>
+    {% if page.categories contains "albums" %}
+    <div class="title">{{ page.title }}</div>
+    <div class="date_taken">{{ page.date_taken }}</div>
+    <div class="camera">{{ page.camera }}</div>
+    {% elsif page.categories contains "articles" %}
+    <div class="title">{{ page.title }}</div>
+    <div class="author">By {{ page.author }}</div>
+    <div class="date">Published {{ page.date | date_to_string }}</div>
     {% endif %}
-    {{ post.content }}</article>
-        {% endfor %}
+    {{ page.content }}
+</article>
 </div>
