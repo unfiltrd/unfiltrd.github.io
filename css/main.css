@@ -1,40 +1,97 @@
+/* Set the global variables for everything. Change these to use your own fonts/colours. */
+
+:root {
+    /* Set sans-serif & mono fonts */
+    --sans-font: Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, sans-serif;
+    --serif-font: Georgia, 'Times New Roman', Times, serif;
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    /* Default (light) theme */
+    --bg: #fff;
+    --accent-bg: #F5F7FF;
+    --text: #212121;
+    --text-light: #666;
+    --border: #D8DAE1;
+    --accent: #0D47A1;
+    --accent-light: #90CAF9;
+    --code: #D81B60;
+    --about-status-border-color: palegreen;
+}
+
+
+/* Dark theme */
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --bg: #212121;
+        --accent-bg: #2b2b2b;
+        --text: #ababab;
+        --text-light: #808080;
+        --border: #666;
+        --accent: #FFB300;
+        --accent-light: #FFECB3;
+        --code: #F06292;
+        --about-status-border-color: palegoldenrod;
+    }
+    img {
+        opacity: .6;
+    }
+}
+
+* {
+    /* Set the font globally */
+    font-family: var(--sans-font);
+}
+
+
+/* Make the body a nice central block */
+
 body {
+    color: var(--text);
+    background: var(--bg);
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+nav ul,
+footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li,
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 4.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-family: var(--serif-font);
+    font-size: 1.35em;
+    line-height: 1.52em;
+    /* color: #333; */
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -49,28 +106,27 @@ img {
 
 .title {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bolder;
 }
 
 .camera {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--serif-font);
     font-style: italic;
     font-size: small;
 }
 
 .date_taken {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--serif-font);
     font-size: small;
 }
 
 .date {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--serif-font);
     font-size: small;
 }
 
 .author {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--serif-font);
     font-size: small;
     font-weight: bold;
 }
@@ -79,13 +135,22 @@ article {
     margin-bottom: 90px;
 }
 
-img + em {
+aside {
+    font-family: Georgia, 'Times New Roman', serif;
+    list-style: none;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-color: var(--about-status-border-color);
+    border-left-width: 7px;
+}
+
+img+em {
     font-style: italic;
-    color:#999;
+    color: #999;
 }
 
 .bio {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 3em;
     font-weight: bold;
     padding-bottom: 10px;
