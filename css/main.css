@@ -14,7 +14,6 @@
     --accent: #999;
     --accent-light: #90CAF9;
     --code: #D81B60;
-    --about-status-border-color: rgb(251, 197, 152);
     --albums-title-color: #556b2f;
 }
 
@@ -31,7 +30,6 @@
         --accent: #ffeea0d7;
         --accent-light: #ffeea0;
         --code: #F06292;
-        --about-status-border-color: palegoldenrod;
         --albums-title-color: rgba(39, 182, 146, 0.726);
     }
     img {
@@ -150,7 +148,7 @@ aside {
     margin-bottom: 15px;
     padding-left: 8px;
     border-left-style: solid;
-    border-left-color: var(--about-status-border-color);
+    border-left-color: #f6cfca;
     border-left-width: 7px;
 }
 
