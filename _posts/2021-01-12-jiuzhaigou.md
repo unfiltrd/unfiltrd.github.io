@@ -1,5 +1,5 @@
 ---
-title: "Sichuan Province"
+title: "Jiuzhaigou, Sichuan"
 layout: "post" 
 date: "2021-01-13"
 categories: 
