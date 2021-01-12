@@ -1,5 +1,5 @@
 ---
-title: "Jiu Zhai Gou, China"
+title: "Jiu Zhai Gou"
 layout: "post" 
 date: "2021-01-13"
 categories: 
@@ -8,4 +8,4 @@ camera: "Canon 5D Mk. III"
 date_taken: "2015-06-09"
 ---
 
-![jiuzhaigou](/images/jiuzhaigou.jpg)
+![jiuzhaigou](/images/jiuzhaigou2.jpg)
