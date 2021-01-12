@@ -8,4 +8,4 @@ camera: "Canon 5D Mk. II"
 date_taken: "2015-06-09"
 ---
 
-![sichuan](/images/jiuzhaigou2.jpg)
+![jiuzhaigou](/images/jiuzhaigou2.jpg)
