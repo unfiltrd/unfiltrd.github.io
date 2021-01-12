@@ -1,5 +1,5 @@
 ---
-title: "Smokey Mountains"
+title: "Smoky Mountains"
 layout: "post" 
 date: "2021-01-13"
 categories: 
@@ -8,4 +8,4 @@ camera: "Canon 5D Mk. III"
 date_taken: "2019-08-12"
 ---
 
-![smokeymtns](/images/smokeymtns.jpg)
+![smokymtns](/images/smokymtns.jpg)

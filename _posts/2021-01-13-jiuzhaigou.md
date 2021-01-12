@@ -1,5 +1,5 @@
 ---
-title: "Jiu Zhai Gou"
+title: "JiuZhaiGou"
 layout: "post" 
 date: "2021-01-13"
 categories: 
