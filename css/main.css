@@ -308,7 +308,7 @@ pre code {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1%;
-    margin-bottom: 70px;
+    margin-bottom: 7%;
 }
 
 .gallery__img {
