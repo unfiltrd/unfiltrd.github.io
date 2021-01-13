@@ -1,7 +1,7 @@
 ---
 title: "Jiuzhaigou, Sichuan"
 layout: "post" 
-date: "2021-01-13"
+date: "2021-01-12"
 categories: 
     - "albums"
 camera: "Canon 5D Mk. II"
