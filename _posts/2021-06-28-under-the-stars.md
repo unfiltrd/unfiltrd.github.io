@@ -1,11 +1,11 @@
 ---
-title: "Massachusetts Institute of Technology"
+title: "Under the Stars"
 layout: "post" 
-date: "2021-06-30"
+date: "2021-05-28"
 categories: 
     - "albums"
 camera: "Canon 5D Mk. II"
-date_taken: "2020-05-31"
+date_taken: "2020-05-15"
 ---
 
-![MIT](/images/mit.jpg)
+![underthestars](/images/prom.jpg)

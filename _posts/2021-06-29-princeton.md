@@ -1,7 +1,7 @@
 ---
 title: "Princeton"
 layout: "post" 
-date: "2021-06-30"
+date: "2021-06-29"
 categories: 
     - "albums"
 camera: "Canon 5D Mk. II"
