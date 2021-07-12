@@ -7,7 +7,7 @@ categories:
 author: "Derek Peng"
 ---
 
-![clouds](/images/clouds2.jpg)
+![clouds](/images/clouds1.jpg)
 
 There’s something wonderful about walking with Eddie in the rain. The world of worries and troubles melts away; life is reduced to a simpler state.
 
