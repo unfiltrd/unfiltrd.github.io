@@ -7,11 +7,11 @@ categories:
 author: "Derek Peng"
 ---
 
-![clouds](/images/clouds1.jpg)
+![clouds](/images/clouds2.jpg)
 
 There’s something wonderful about walking with Eddie in the rain. The world of worries and troubles melts away; life is reduced to a simpler state.
 
-The water weighs my hair down, washing away my self-consciousness along with the pomade-paste hastily applied to my hair. My socks are soaked and my shirt clings to my skin. It’s impossible to look good in the rain, so there is no need to try. Lights are distorted through the water droplets on my glasses. Ordinarily, I’d have rinsed them off, sprayed them with cleaner, and wiped them to transparency, but not in the rain—there’s no use. My impotence is comforting.
+The water weighs down my hair, washing away my self-consciousness along with the pomade-paste hastily applied to my hair. My socks are soaked and my shirt clings to my skin. It’s impossible to look good in the rain, so there is no need to try. Lights are distorted through the water droplets on my glasses. Ordinarily, I’d have rinsed them off, sprayed them with cleaner, and wiped them to transparency, but not in the rain—there’s no use. My impotence is comforting.
 
 Eddie’s skinny self darts around from flower to signpost to unknown-organic-material and back to flower again. I wonder what she smells in each sniff, if each scent is different or the same, which scents catch her nose… Eddie reignites a curiosity in me that has been hiding since childhood, from the days of asking “Why?” Nowadays, it’s “who cares” or “why does it matter” or “it makes no difference.” It takes too much time and energy to find out “why,” and in the end it doesn’t seem to matter. But it matters in the rain with Eddie. I wish she’d talk to me and tell me about her findings, but she just keeps on sniffing.
 
