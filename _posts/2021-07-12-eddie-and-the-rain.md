@@ -7,6 +7,8 @@ categories:
 author: "Derek Peng"
 ---
 
+![clouds](/images/clouds1.jpg)
+
 There’s something wonderful about walking with Eddie in the rain. The world of worries and troubles melts away; life is reduced to a simpler state.
 
 The water weighs my hair down, washing away my self-consciousness along with the pomade-paste hastily applied to my hair. My socks are soaked and my shirt clings to my skin. It’s impossible to look good in the rain, so there is no need to try. Lights are distorted through the water droplets on my glasses. Ordinarily, I’d have rinsed them off, sprayed them with cleaner, and wiped them to transparency, but not in the rain—there’s no use. My impotence is comforting.
