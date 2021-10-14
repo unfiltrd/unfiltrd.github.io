@@ -9,7 +9,7 @@ author: "Derek Peng"
 
 ![clouds](/images/clouds1.jpg)
 
-A pre-bed, half-asleep burst of creativity in its first, unedited form:
+A pre-bed, half-asleep burst of creativity in its pure, unedited form:
 
 There’s something wonderful about walking with Eddie in the rain. The world of worries and troubles melts away; life is reduced to a simpler state.
 
